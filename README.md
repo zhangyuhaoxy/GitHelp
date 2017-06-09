@@ -37,3 +37,6 @@ git pull <远程主机名> <远程分支名>:<本地分支名> 取回远程主�
   git commit -m "third commit" 
   git push
   即可
+  
+最后 git 项目记录图形化输出 
+git log --graph --decorate --pretty=oneline --abbrev-commit --all
